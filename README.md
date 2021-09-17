@@ -44,6 +44,41 @@ git clone <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_
 git pull
 ```
 
+
+
+## SOME RULES TO FOLLOW BEFORE PUSH SOME CHANGES TO GITHUB
+
+This is very important rules for team work.
+
+- stage your changes
+
+  ```bash
+  git add .
+- Commit your work first.
+
+  ```bash
+  git commit -m "<any description >"
+- Pull first before push your changes
+  ```bash
+  git pull
+  ```
+- Now push your changes to git
+  ```bash
+  git push
+  ```
+
+Note: make sure you are in a project directory on your local computer.  
+
+```powershell
+x:/-directory/project-directory > 
+
+```
+
+<h2 align="left">Support:</h2>
+<p><a href="https://www.buymeacoffee.com/deesynertz"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="200" alt="deesynertz" /></a></p><br><br><br><br>
+
+### LISENCE AND CONTACT
+
 [MIT LISENCE]()
 
 [deesynertz](https://github.com/deesynertz)
