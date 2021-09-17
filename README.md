@@ -1,5 +1,5 @@
 # how_to_create_rep
-this will guide use on how to create, pull, clone, push on Github from/to  their local repository git
+this will guide user on how to create, pull, clone, push repo on Github from/to  their local repository
 
 # Quick setup — if you’ve done this kind of thing before
 
