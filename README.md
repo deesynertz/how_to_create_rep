@@ -79,13 +79,27 @@ x:/-directory/project-directory >
 
 ### LISENCE AND CONTACT
 
-[MIT LISENCE]()
+[![General badge](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/deesynertz/how_to_create_rep)
 
-[deesynertz](https://github.com/deesynertz)
+[![General badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](deesynertz@gmail.com)
 
-[Email](deesynertz@gmail.com)
+[![General badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://tz.linkedin.com/deogratias-alison)
 
-[Mobile](+255744004897)
+
+<!-- https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white -->
+
+<!-- https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white -->
+
+<!-- https://img.shields.io/badge/Skype-00AFF0?style=for-the-badge&logo=skype&logoColor=white -->
+
+
+<!-- https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white -->
+
+<!-- https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white -->
+<!-- https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white -->
+<!-- https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white -->
+<!-- https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black -->
+
 
 @deesynertz :+1: Enjoy using Github for best software version control - it's ready to merge! :shipit:
 
