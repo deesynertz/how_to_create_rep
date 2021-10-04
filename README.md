@@ -113,7 +113,7 @@ x:/-directory/project-directory >
 
 [![General badge](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/deesynertz/how_to_create_rep)
 
-[![General badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](deesynertz@gmail.com)
+[![General badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](MailTo:deesynertz@gmail.com)
 
 [![General badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deogratias-alison/)
 
