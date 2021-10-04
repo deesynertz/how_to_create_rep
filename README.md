@@ -44,6 +44,38 @@ git clone <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_
 git pull
 ```
 
+# BRANCH
+See What Branch You're On
+Run this command:
+
+```powershell
+git status
+```
+List All Branches
+
+NOTE:  <p>The current local branch will be marked with an asterisk (<span style="color:green; font-size: 15px;">*</span>)</p>
+
+To see local branches, run this command:
+
+```bash
+git branch
+```
+
+To see remote branches, run this command:
+```bash 
+git branch -r
+```
+To see all local and remote branches, run this command:
+```bash
+git branch -a
+```
+
+Create a New Branch
+Run this command (replacing my-branch-name with whatever name you want):
+
+```bash
+git checkout -b <my-branch-name>
+```
 
 
 ## SOME RULES TO FOLLOW BEFORE PUSH SOME CHANGES TO GITHUB
