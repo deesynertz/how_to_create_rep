@@ -20,6 +20,7 @@ git add README.md
 git commit -m "any message you want to add as commit"
 git branch -M master
 git remote add origin <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
+git remote set-url origin <Your new github rep URL>
 git push -u origin master
 
 but you can use -f flag instead of -u during push activity
