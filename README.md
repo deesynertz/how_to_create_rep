@@ -1,5 +1,8 @@
 # how_to_create_rep
-this will guide user on how to create, pull, clone, push repo on Github from/to  their local repository
+
+<!-- [![N|DEESYNERTZ](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid) -->
+
+This will guide user on how to create, pull, clone, push repo on Github from/to  their local repository
 
 # Quick setup — if you’ve done this kind of thing before
 
@@ -8,13 +11,12 @@ Get started by ``creating a new file`` or ``uploading an existing file``. Github
 
 ## For those who created a new repository on the command line.
 
-make sure you are in a folder  that will have working project on ``terminal for mac and linux`` and ``cmd or power-shell or gitbash`` then run the following command.
+make sure you are in a folder  that will have working project on ``terminal for mac and linux`` and ``cmd or power-shell or gitbat`` then run the following command.
 
 
 ## steps
 
 ```powershell   
-
 git init
 git add README.md
 git commit -m "any message you want to add as commit"
@@ -32,7 +34,7 @@ but you can use -f flag instead of -u during push activity
 
 ## push an existing repository from the command line
 
-```bash
+```bat
 git remote add origin <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
 git branch -M master
 git push -u origin master 
@@ -60,26 +62,43 @@ NOTE:  <p>The current local branch will be marked with an asterisk (<span style=
 
 To see local branches, run this command:
 
-```bash
+```bat
 git branch
 ```
 
 To see remote branches, run this command:
-```bash 
+```bat 
 git branch -r
 ```
 To see all local and remote branches, run this command:
-```bash
+```bat
 git branch -a
 ```
 
 Create a New Branch
 Run this command (replacing my-branch-name with whatever name you want):
 
-```bash
+```bat
 git checkout -b <my-branch-name>
 ```
 
+How do I delete a local branch in Git?
+
+<p>Git makes managing branches really easy - and deleting local branches is no exception:</p>
+```bat
+git branch -d <local-branch>
+```
+
+<p>In some cases, Git might refuse to delete your local branch: when it contains commits that haven't been merged into any other local branches or pushed to a remote repository.
+This is a very sensible rule that protects you from inadvertently losing commit data.</p>
+```bat
+git branch -D <local-branch>
+```
+
+<p>The quqestion is How do I delete a remote branch in Git ?</p>
+```bat
+git push origin --delete <remote-branch-name> 
+```
 
 ## SOME RULES TO FOLLOW BEFORE PUSH SOME CHANGES TO GITHUB
 
@@ -87,18 +106,18 @@ This is very important rules for team work.
 
 - stage your changes
 
-  ```bash
+  ```bat
   git add .
 - Commit your work first.
 
-  ```bash
+  ```bat
   git commit -m "<any description >"
 - Pull first before push your changes
-  ```bash
+  ```bat
   git pull
   ```
 - Now push your changes to git
-  ```bash
+  ```bat
   git push
   ```
 
@@ -108,6 +127,21 @@ Note: make sure you are in a project directory on your local computer.
 x:/-directory/project-directory > 
 
 ```
+
+## THE GOLDEN RULES OF VERSION CONTROL
+
+according to [TOWER](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/branching-merging/working-with-branches#start)
+
+### No. 4: Never Commit Half-Done Work
+
+> You should only commit code when it’s completed. This
+> doesn’t mean you have to complete a whole, large 
+> feature before committing. Quite the contrary: split
+> the feature’s implementation into logical chunks and
+> remember to commit early and often. But don’t commit
+> just to get half-done work out of your way when you
+> need a "clean working copy". For these cases,
+> consider using Git’s “Stash” feature instead.
 
 <h2 align="left">Support:</h2>
 <p><a href="https://www.buymeacoffee.com/deesynertz"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="200" alt="deesynertz" /></a></p><br><br><br><br>
