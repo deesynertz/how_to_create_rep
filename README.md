@@ -85,19 +85,22 @@ git checkout -b <my-branch-name>
 How do I delete a local branch in Git?
 
 <p>Git makes managing branches really easy - and deleting local branches is no exception:</p>
+
 ```bat
 git branch -d <local-branch>
 ```
 
 <p>In some cases, Git might refuse to delete your local branch: when it contains commits that haven't been merged into any other local branches or pushed to a remote repository.
 This is a very sensible rule that protects you from inadvertently losing commit data.</p>
+
 ```bat
-git branch -D <local-branch>
+  git branch -D <local-branch>
 ```
 
 <p>The quqestion is How do I delete a remote branch in Git ?</p>
+
 ```bat
-git push origin --delete <remote-branch-name> 
+  git push origin --delete <remote-branch-name> 
 ```
 
 ## SOME RULES TO FOLLOW BEFORE PUSH SOME CHANGES TO GITHUB
@@ -107,18 +110,21 @@ This is very important rules for team work.
 - stage your changes
 
   ```bat
-  git add .
+    git add .
+  ```
 - Commit your work first.
 
   ```bat
-  git commit -m "<any description >"
+    git commit -m "<any description >"
+  ```
+  
 - Pull first before push your changes
   ```bat
-  git pull
+    git pull
   ```
 - Now push your changes to git
   ```bat
-  git push
+    git push
   ```
 
 Note: make sure you are in a project directory on your local computer.  
