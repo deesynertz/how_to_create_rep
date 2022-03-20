@@ -49,7 +49,16 @@ git clone <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_
 git pull
 ```
 
+```powershell
+Note: 
+# Some beginner as i was before they are facing problem of quit the git log, and i realised that is quite simple to quit the log by pressing one character in your keyboard just one );
+
+q
+
+```
+
 # BRANCH
+
 See What Branch You're On
 Run this command:
 
