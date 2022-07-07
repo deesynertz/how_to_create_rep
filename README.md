@@ -99,6 +99,17 @@ How do I delete a local branch in Git?
 git branch -d <local-branch>
 ```
 
+## Try to synchronize your branch list using:
+
+>The -p flag means "prune". After fetching, branches which no longer exist on the remote will be deleted.
+
+```powershell
+git fetch -p
+```
+
+
+
+
 <p>In some cases, Git might refuse to delete your local branch: when it contains commits that haven't been merged into any other local branches or pushed to a remote repository.
 This is a very sensible rule that protects you from inadvertently losing commit data.</p>
 
