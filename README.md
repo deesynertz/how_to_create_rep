@@ -37,7 +37,7 @@ but you can use -f flag instead of -u during push activity
 ```bat
 git remote add origin <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
 git branch -M master
-git push -u origin master 
+git push -u origin master
 ```
 
 Some basic Git commands are:
@@ -67,10 +67,12 @@ git branch
 ```
 
 To see remote branches, run this command:
-```bat 
+
+```bat
 git branch -r
 ```
 To see all local and remote branches, run this command:
+
 ```bat
 git branch -a
 ```
@@ -91,27 +93,37 @@ git branch -d <local-branch>
 
 <p>In some cases, Git might refuse to delete your local branch: when it contains commits that haven't been merged into any other local branches or pushed to a remote repository.
 This is a very sensible rule that protects you from inadvertently losing commit data.</p>
+
 ```bat
 git branch -D <local-branch>
 ```
 
 <p>The quqestion is How do I delete a remote branch in Git ?</p>
+
 ```bat
-git push origin --delete <remote-branch-name> 
+git push origin --delete <remote-branch-name>
 ```
+
+> If you have deleted a branch on GitHub and it still appears when you run the command to view all branches, it's possible that the local repository still has a reference to the deleted branch. To remove the deleted branch permanently, you can try the following steps:
+
+Update your local repository with the latest changes from GitHub by running the following command:
+```bat
+git fetch --prune
+```
+The above command will remove any references to remote branches that no longer exist on GitHub.
 
 ## SOME RULES TO FOLLOW BEFORE PUSH SOME CHANGES TO GITHUB
 
 This is very important rules for team work.
 
 - stage your changes
-
   ```bat
   git add .
+  ```
 - Commit your work first.
-
   ```bat
   git commit -m "<any description >"
+  ```
 - Pull first before push your changes
   ```bat
   git pull
@@ -122,10 +134,8 @@ This is very important rules for team work.
   ```
 
 Note: make sure you are in a project directory on your local computer.  
-
 ```powershell
-x:/-directory/project-directory > 
-
+x:/-directory/project-directory >
 ```
 
 ## THE GOLDEN RULES OF VERSION CONTROL
@@ -135,7 +145,7 @@ according to [TOWER](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/br
 ### No. 4: Never Commit Half-Done Work
 
 > You should only commit code when it’s completed. This
-> doesn’t mean you have to complete a whole, large 
+> doesn’t mean you have to complete a whole, large
 > feature before committing. Quite the contrary: split
 > the feature’s implementation into logical chunks and
 > remember to commit early and often. But don’t commit
@@ -174,4 +184,3 @@ according to [TOWER](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/br
 
 
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
-
