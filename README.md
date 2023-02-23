@@ -199,7 +199,7 @@ according to [TOWER](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/br
 > need a "clean working copy". For these cases,
 > consider using Git’s “Stash” feature instead.
 
-## Support:
+## Support
 
 <p><a href="https://www.buymeacoffee.com/deesynertz"><img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="200" alt="deesynertz" /></a></p><br>
 
