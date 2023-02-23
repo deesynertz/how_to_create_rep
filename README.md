@@ -34,6 +34,9 @@ git branch -M master
 git remote add origin <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
 ```
 
+if Error: failed to push some refs to <url.git> occured 
+  Solution: [Here](https://github.com/deesynertz/how_to_create_rep/blob/master/common_errors.md)
+
 ***in case you have remote origin but in any sucmstance you need to change the remote URL the you have to use below code as commted by @shebyclassic2018***
 
 ```bat
