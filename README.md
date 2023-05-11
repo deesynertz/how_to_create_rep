@@ -140,6 +140,12 @@ This is a very sensible rule that protects you from inadvertently losing commit 
 git push origin --delete <remote-branch-name>
 ```
 
+```bat
+git remote set-url --delete --push  origin https://github.com/shebyclassic2018/ngatahomes_backup.git
+```
+
+
+
 ```powershell
 Note: 
 # If you have deleted a branch on GitHub and it still appears when you run the command to view all branches, it's possible that the local repository still has a reference to the deleted branch. To remove the deleted branch permanently, you can try the following steps:
