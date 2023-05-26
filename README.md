@@ -112,6 +112,11 @@ Run this command (replacing my-branch-name with whatever name you want):
 git checkout -b <my-branch-name>
 ```
 
+Set upstream branch using git push
+ ```bat
+git push --set-upstream <remote> <branch>
+```
+
 How do I delete a local branch in Git?
 <p> Git makes managing branches really easy - and deleting local branches is no exception:</p>
 
