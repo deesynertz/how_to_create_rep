@@ -2,15 +2,15 @@
 
 <!-- [![N|DEESYNERTZ](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid) -->
 
-This will guide user on how to create, pull, clone, push repo on Github from/to  their local repository
+This will guide user on how to create, pull, clone, and push repo on Github from/to  their local repository
 
 ## Quick setup — if you’ve done this kind of thing before
 
-Get started by ``creating a new file`` or ``uploading an existing file``. Github recommend every repository include a ``README, LICENSE, and .gitignore``.
+Get started by ``creating a new file`` or ``uploading an existing file``. GitHub recommends every repository include a ``README, LICENSE, and .gitignore``.
 
 ## For those who created a new repository on the command line
 
-make sure you are in a folder  that will have working project on ``terminal for mac and linux`` and ``cmd or power-shell or gitbat`` then run the following command.
+make sure you are in a folder  that will have a working project on ``terminal for Mac and Linux `` and ``cmd or power-shell or gitbat`` then run the following command.
 
 ## steps
 
@@ -31,28 +31,28 @@ git branch -M master
 ```
 
 ```bat
-git remote add origin <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
+git remote add origin <Your Github rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
 ```
 
 if Error: failed to push some refs to <url.git> occured 
   Solution: [Here](https://github.com/deesynertz/how_to_create_rep/blob/master/common_errors.md)
 
-***in case you have remote origin but in any sucmstance you need to change the remote URL the you have to use below code as commted by @shebyclassic2018***
+***in case you have remote origin but in any substance you need to change the remote URL you have to use the below code as commented by @shebyclassic2018***
 
 ```bat
-git remote set-url origin <Your new github rep URL>
+git remote set-url origin <Your new Github repo URL>
 ```
 
 ```bat
 git push -u origin master
 ```
 
-but you can use -f flag instead of -u during push activity
+but you can use the -f flag instead of -u during the push activity
 
-## push an existing repository from the command line
+## Push an existing repository from the command line
 
 ```bat
-git remote add origin <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
+git remote add origin <Your GitHub rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
 git branch -M master
 git push -u origin master
 ```
@@ -63,13 +63,13 @@ Some basic Git commands are:
 git status
 git add
 git commit "any message you want to add as commit"
-git clone <Your github rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
+git clone <Your GitHub rep URL> e.g https://github.com/deesynertz/how_to_create_rep.git
 git pull
 ```
 
-```powershell
+```powerShell
 Note: 
-# Some beginner as i was before they are facing problem of quit the git log, and i realised that is quite simple to quit the log by pressing one character in your keyboard just one );
+# Some beginners as i was before are facing the problem of quitting the git log, and I realized that is quite simple to quit the log by pressing one character on your keyboard just one );
 
 q
 ```
@@ -126,7 +126,7 @@ git branch -d <local-branch>
 
 ## Try to synchronize your branch list using
 
->The -p flag means "prune". After fetching, branches which no longer exist on the remote will be deleted.
+>The -p flag means "prune". After fetching, branches that no longer exist on the remote will be deleted.
 
 ```powershell
 git fetch -p
@@ -139,7 +139,7 @@ This is a very sensible rule that protects you from inadvertently losing commit 
   git branch -D <local-branch>
 ```
 
-<p>The quqestion is How do I delete a remote branch in Git ?</p>
+<p>The question is How do I delete a remote branch in Git ?</p>
 
 ```bat
 git push origin --delete <remote-branch-name>
@@ -166,7 +166,7 @@ The above command will remove any references to remote branches that no longer e
 
 ## SOME RULES TO FOLLOW BEFORE PUSH SOME CHANGES TO GITHUB
 
-This is very important rules for team work.
+These are very important rules for teamwork.
 
 - stage your changes
 
@@ -180,7 +180,7 @@ This is very important rules for team work.
   git commit -m "<any description >"
   ```
 
-- Pull first before push your changes
+- Pull first before pushing your changes
 
   ```bat
     git pull
@@ -238,6 +238,6 @@ according to [TOWER](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/br
 <!-- https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white -->
 <!-- https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black -->
 
-@deesynertz :+1: Enjoy using Github for best software version control - it's ready to merge! :shipit:
+@deesynertz :+1: Enjoy using Github for the best software version control - it's ready to merge! :shipit:
 
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
