@@ -57,6 +57,13 @@ git branch -M master
 git push -u origin master
 ```
 
+if any fatal: refusing to merge unrelated histories occured
+## Solution
+
+```bat
+git pull origin master --allow-unrelated-histories
+```
+
 Some basic Git commands are:
 
 ```
